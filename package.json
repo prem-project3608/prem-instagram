@@ -1,33 +1,25 @@
 {
-  "name": "snapsave-downloader",
+  "name": "prem-instagram",
   "version": "6.9.5",
-  "description": "Fetch Url Downloads From Instagram & Facebook",
+  "description": "THIS BOT IS MADE BY MR PREM BABU 🙂",
   "main": "src/index.js",
   "scripts": {
     "test": "node src/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alya-tok/snapsave-downloader.git"
+    "url": "git+https://github.com/prem-project3608/prem-instagram.git"
   },
   "keywords": [
-    "instagram",
-    "downloader",
-    "media",
-    "link",
-    "photo",
-    "video",
-    "url",
-    "picture",
-    "image",
-    "download"
+    "PREM BABU",
+    "PREM INSTAGRAM"
   ],
   "author": "Alia Uhuy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alya-tok/snapsave-downloader/issues"
+    "url": "https://github.com/prem-project3608.git"
   },
-  "homepage": "https://github.com/alya-tok/snapsave-downloader#readme",
+  "homepage": "https://github.com/prem-project3608.git",
   "dependencies": {
     "got": "^11.8.3",
     "cheerio": "~1.0.0-rc.5"
