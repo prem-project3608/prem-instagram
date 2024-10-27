@@ -1,27 +1,47 @@
 {
-  "name": "prem-instagram",
-  "version": "6.9.5",
-  "description": "THIS BOT IS MADE BY MR PREM BABU 🙂",
-  "main": "src/index.js",
+  "name": "@prem_.status",
+  "version": "2.0.4",
+  "main": "dist/bundle.js",
   "scripts": {
-    "test": "node src/test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prem-project3608/prem-instagram.git"
+    "build": "rollup --config",
+    "test": "node ./test/test.js"
   },
   "keywords": [
     "PREM BABU",
-    "PREM INSTAGRAM"
+    "PREM STATUS",
+    "PREM PROJECT",
+    "INSTAGRAM ID - @prem_status"
   ],
-  "author": "Alia Uhuy",
+  "author": "PREM BABU",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/prem-project3608.git"
+  "description": "This Node.js package provides a simple and efficient way to download media from Instagram. Whether you need to download images, videos, or stories, this package makes it easy with minimal setup. Designed for developers, this package supports various media formats and ensures quick downloads, making it perfect for both personal use and larger projects. With straightforward API calls, you can integrate Instagram media downloading functionality into your applications effortlessly.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prem-project3608/prem_.status.git"
   },
-  "homepage": "https://github.com/prem-project3608.git",
+  "bugs": {
+    "url": "https://github.com/priyanshu192/priyansh-ig-downloader/issues"
+  },
+  "homepage": "https://github.com/priyanshu192/priyansh-ig-downloader#readme",
   "dependencies": {
-    "got": "^11.8.3",
-    "cheerio": "~1.0.0-rc.5"
+    "crypto-js": "^4.2.0",
+    "undici": "^5.28.4"
+  },
+  "devDependencies": {
+    "rollup": "^4.18.0"
+  },
+  "files": [
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "private": false,
+  "directories": {
+    "test": "test"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
