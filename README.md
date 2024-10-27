@@ -1,3 +1,3 @@
-## **PREM INSTAGRAM**
+# **PREM PROJECT**
 ```bash
-npm install prem-instagram
+npm install prem_.status
